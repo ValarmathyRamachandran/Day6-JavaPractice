@@ -4,11 +4,12 @@ class ReverseNum {
 		  public static void main(String[] args) {
 
 		    Scanner scan=new Scanner(System.in);
+		    System.out.println("Please Enter the Number:");
+		    
 			int num=scan.nextInt();
 			 scan.close();
-				System.out.println("Please Enter the Number:");
-
-		    int reversed=0;
+			 
+			int reversed=0;
 			// run loop until num becomes 0
 		    while(num != 0) {
 		    
@@ -20,7 +21,7 @@ class ReverseNum {
 		      num = num / 10;
 		    }
 
-		    System.out.println("Reversed Number: " + reversed);
+		    System.out.println("Reversed Number: " +reversed);
 		  
 		  }
 		}
